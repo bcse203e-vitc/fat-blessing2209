@@ -1,0 +1,75 @@
+<html>
+    <head>
+    <title>Parking lot fee</title> 
+
+    </head>
+    <body>
+        <h1>Parking fee calculation</h1>
+        <form>
+            <label for="Enter the number of hours">Enter the number of hours</label><br><br>
+            <input type="number" id="num1"><br><br>
+
+            <label for="Enter the number of days">Enter the number of days </label><br><br>
+            <input type="number" id="num2"><br><br>
+            <input type="button" = ></button>
+
+        </form>
+
+        <table border = >
+            <th>
+                <tr>
+
+                    <td>customerid</td>
+                    <td>duration hours</td>
+                    <td>charge</td>
+                    <td>error_flag</td>
+                </tr>
+            </th>
+            <tr>
+                <td>123</td>
+                <td>3</td>
+                <td>100</td>
+                <td>no</td>
+            </tr>
+            <tr>
+                <td>bless</td>
+                <td>2</td>
+                <td>40</td>
+                <td>no</td>
+            </tr>
+            <tr>
+                <td>shy12</td>
+                <td>3</td>
+                <td>60</td>
+                <td>no</td>
+            </tr>
+        </table>
+        <script>
+            function calculatecharges(){
+                let n1 = document.getElementById("num1").value
+                
+                let n2 = document.getElementById("num2").value
+
+                let su = n1*n2 + n1/n2
+                let charges = document.getelementbyId("result")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+
+            }
+        </script>
+    </body>
+
